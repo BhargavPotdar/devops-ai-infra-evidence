@@ -3,14 +3,20 @@
 LOGFILE="/tmp/system_health.log"
 
 check_disk(){
-         df -h /
+	 if ! df -h /; then
+	 	echo "ERROR: Disk check failed"
+		return 1
+	 fi
 }
 
 check_memory(){
          free -m
 }
 
-echo "system health"
+echo "System Health Check"
 
-check_disk >> "$LOGFILE"
+if !  check_disk >> "$LOGFILE"; then
+	echo "ERROR: Disk Check Failed"
+	exit 1
+fi
 check_memory >> "$LOGFILE"
