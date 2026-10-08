@@ -21,3 +21,25 @@ Week 1 — Foundation Audit and Setup
 - [ ] Day 7 — Rebuild script #3 + weekly review
 
 
+## Week 1 — Day 4: System Health Check
+
+### What it does
+Checks disk and memory health and writes the results to a log file.
+
+### Why I rebuilt it
+Rebuilt the script from memory to validate retention of Bash/Linux scripting fundamentals.
+
+### Before
+- Basic disk and memory checks
+- Limited error handling
+- No basic test
+
+### After
+- Rebuilt from scratch
+- Added disk-check error handling
+- Added exit-status handling
+- Added a basic success/failure test
+
+### Result
+The script passes the success-path test with exit status 0.
+The failure path was also tested and correctly returned exit status 1.
