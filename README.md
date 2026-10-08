@@ -13,9 +13,11 @@ Week 1 — Foundation Audit and Setup
 ## Progress
 
 - [x] Day 1 — Foundation audit
-- [ ] Day 2 — Rebuild script #1
-- [ ] Day 3 — Error handling + test
-- [ ] Day 4 — Finish rebuild + README
+- [x] Day 2 — Rebuild script #1
+- [x] Day 3 — Error handling + test
+- [x] Day 4 — Finish rebuild + README
 - [ ] Day 5 — Skills audit + AWS setup
 - [ ] Day 6 — Rebuild script #2
 - [ ] Day 7 — Rebuild script #3 + weekly review
+
+

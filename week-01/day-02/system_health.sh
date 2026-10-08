@@ -16,7 +16,6 @@ check_memory(){
 echo "System Health Check"
 
 if !  check_disk >> "$LOGFILE"; then
-	echo "ERROR: Disk Check Failed"
 	exit 1
 fi
 check_memory >> "$LOGFILE"
